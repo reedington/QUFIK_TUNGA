@@ -85,12 +85,13 @@ Here's an example demonstrating how to use the Streamlit app:
 ```bash
 # Install dependencies
 pip install streamlit openai python-dotenv
+```
 
-# Create a .env file with your OpenAI API key
+### Create a .env file with your OpenAI API key
 
-# Run the Streamlit app
+### Run the Streamlit app
+
 streamlit run app.py
-
 
 ## Article Generator
 

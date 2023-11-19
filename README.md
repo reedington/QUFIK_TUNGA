@@ -24,7 +24,7 @@ Follow the instructions below to get started with D.A.R.T.H:
 
 - Python installed
 - Streamlit library installed (you can install it using `pip install streamlit`)
-- Additional prerequisites for specific functions (mention them if any)
+- OPENAI and AZURE API keys
 
 ### Installation
 
@@ -72,9 +72,9 @@ The `app.py` file contains a Streamlit app for interacting with various function
 
 ### How to Run
 
-1. Install the required dependencies using `pip install streamlit openai python-dotenv`.
+1. Install the required dependencies using `pip install streamlit openai python-dotenv` or `pip install requirements.txt`.
 
-2. Create a `.env` file with your OpenAI API key.
+2. Create a `.env` file with your OpenAI API and AZURE key.
 
 3. Run the Streamlit app using `streamlit run app.py`.
 
@@ -91,7 +91,9 @@ pip install streamlit openai python-dotenv
 
 ### Run the Streamlit app
 
-streamlit run app.py
+`streamlit run app.py`
+
+Alternatively, you can email the developers to restart the space so you can run the app in the cloud with our API. Check the description of the repository for more info.
 
 ## Article Generator
 
@@ -269,14 +271,8 @@ print("Assistant Messages:", assistant_messages)
 
 ## DeepSeeker: An Open-Source Model
 
-### Summary
-
-DeepSeeker is an open-source model implemented in the *** notebook. However, the initial implementation demonstrated a sluggish performance. To overcome this limitation, we incorporated OpenAI GPT-4 into the system, enhancing the model's speed and responsiveness.
+DeepSeeker is an open-source model implemented in the `Article Generation for Developers` notebook. However, the implementation demonstrated a sluggish performance. To overcome this limitation, we incorporated OpenAI GPT-4 into the system, enhancing the model's speed and responsiveness. The model is still available to be run in the `Article Generation for Developers` notebook. Using a GPU would incur a wait time of about 5-10 minutes. Using a CPU would incur a wait time of about 10 minutes.
 
 ### OpenAI GPT-4 Integration
 
-To address the speed constraints, we seamlessly integrated OpenAI GPT-4 into DeepSeeker. This not only accelerates the model's processing but also leverages the advanced capabilities of GPT-4, providing improved efficiency and more accurate outcomes.
-
-### Functions in the Notebook
-
-While the functions in the notebook are not directly connected to the D.A.R.T.H app, they play a crucial role in specific tasks. Operating through user input, these functions enable dynamic interaction with the model. Users can input queries or data, triggering the model's processes and obtaining valuable insights and outputs.
+To address the speed constraints, we integrated OpenAI GPT-4 to achieve wait times of 3 minutes or less. This not only accelerates the application's processing but also leverages the advanced capabilities of GPT-4, providing improved efficiency and more accurate outcomes.

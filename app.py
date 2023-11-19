@@ -123,3 +123,6 @@ page_names_to_funcs = {
 demo_name = st.sidebar.selectbox(
     "What would you like to do?", list(page_names_to_funcs.keys()))
 page_names_to_funcs[demo_name]()
+
+# Footer
+st.markdown('<div class="footer" style="text-align: center;">Powered by OpenAI & Azure <br> Created by <a href="https://www.linkedin.com/in/qudus-abolade/">Qudus</a> & <a href="https://www.linkedin.com/in/oluwafikayomi-adeleke-98a29023b">Fikayo</a>🦇</div>', unsafe_allow_html=True)

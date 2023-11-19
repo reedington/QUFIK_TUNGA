@@ -273,12 +273,8 @@ print("Assistant Messages:", assistant_messages)
 
 ### Summary
 
-DeepSeeker is an open-source model implemented in the *** notebook. However, the initial implementation demonstrated a sluggish performance. To overcome this limitation, we incorporated OpenAI GPT-4 into the system, enhancing the model's speed and responsiveness.
+DeepSeeker is an open-source model implemented in the Article Generation for Developers notebook. However, the initial implementation demonstrated a sluggish performance. To overcome this limitation, we incorporated OpenAI GPT-4 into the system, enhancing the model's speed and responsiveness. However, the model is still available to be run. Using a GPU would incur a wait time of about 5-10 minutes. Using a CPU would incur a wait time of about 10 minutes.
 
 ### OpenAI GPT-4 Integration
 
-To address the speed constraints, we seamlessly integrated OpenAI GPT-4 into DeepSeeker. This not only accelerates the model's processing but also leverages the advanced capabilities of GPT-4, providing improved efficiency and more accurate outcomes.
-
-### Functions in the Notebook
-
-While the functions in the notebook are not directly connected to the D.A.R.T.H app, they play a crucial role in specific tasks. Operating through user input, these functions enable dynamic interaction with the model. Users can input queries or data, triggering the model's processes and obtaining valuable insights and outputs.
+To address the speed constraints, we seamlessly integrated OpenAI GPT-4 to achieve wait times of 3 minutes or less. This not only accelerates the model's processing but also leverages the advanced capabilities of GPT-4, providing improved efficiency and more accurate outcomes.

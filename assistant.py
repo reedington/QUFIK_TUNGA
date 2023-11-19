@@ -1,4 +1,3 @@
-import os
 import openai
 import time
 from dotenv import load_dotenv, dotenv_values

@@ -1,5 +1,4 @@
 from openai import OpenAI
-import os
 import requests
 import uuid
 import json

@@ -24,7 +24,7 @@ Follow the instructions below to get started with D.A.R.T.H:
 
 - Python installed
 - Streamlit library installed (you can install it using `pip install streamlit`)
-- Additional prerequisites for specific functions (mention them if any)
+- OPENAI and AZURE API keys
 
 ### Installation
 
@@ -92,6 +92,8 @@ pip install streamlit openai python-dotenv
 ### Run the Streamlit app
 
 streamlit run app.py
+
+Alternatively, you can email the developers to restart the space so you can run the app in the cloud with out API. Check the description of the repository for more info.
 
 ## Article Generator
 
